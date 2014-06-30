@@ -15,6 +15,6 @@ This plugin is using [jQuery Validation plugin](http://jqueryvalidation.org/) li
 ## Contribute
 While using this plugin if you find any bug or any conflict, please submit an issue here (If possible with a pull request). 
 
-### Author: [Mrinal Kanti Roy](http://wordpress.org/support/profile/mkrdip) 
+### Author: [Mrinal Kanti Roy](http://profiles.wordpress.org/mkrdip/) 
 
 ### Find this plugin at WordPress.org: [Instant Comment Validation](http://wordpress.org/plugins/instant-comment-validation)
