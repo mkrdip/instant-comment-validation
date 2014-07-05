@@ -16,8 +16,12 @@ WordPress deafult comment error page sucks? Its just showing an error message li
 
 That's it, no configuration needed, just install & enjoy! 
 
+= Contribute =
+While using this plugin if you find any bug or any conflict, please submit an issue at 
+[Github](https://github.com/mkrdip/instant-comment-validation/) (If possible with a pull request). 
+
 = Credit =
-This plugin is using [jQuery Validation plugin](http://jqueryvalidation.org/) library.
+This plugin used [jQuery Validation plugin](http://jqueryvalidation.org/) library.
 
 == Installation ==
 
@@ -27,10 +31,10 @@ Automatic installation is the easiest option as WordPress handles the file trans
 
 In the search field type “Instant Comment Validation” and click Search Plugins. Once you’ve found plugin, you can install it by simply clicking “Install Now”.
 
-= Manual installation =
+= Manual installation = 
 1. Extract the zip file 
-2. Upload the `instant-comment-validation` folder to `/wp-content/plugins/`
-3) Activate the plugin through the 'Plugins' menu in WordPress
+2. Upload the `instant-comment-validation` folder to `/wp-content/plugins/` 
+3. Activate the plugin through the 'Plugins' menu in WordPress
 
 
 == Frequently Asked Questions ==
@@ -40,14 +44,16 @@ Answer: No, then plugin assests do not load unnecessarily. If your post in singl
 
 == Screenshots ==
 
-1. Validation error message showing in Twenty Fourteen Theme
-2. Validation error message showing in Twenty Thirteen Theme
-3. Validation error message showing in Twenty Twelve Theme
+1. Instant Validation error message showing to logged in user
+2. Instant Validation error messages showing to general user
 
 == Changelog ==
 
 = 1.0 =
 * Initial release
+= 1.0.1 =
+* Updated readme.txt file
+* Updated main plugin file (Direct Access blocked to plugin URL)
 
 == Upgrade Notice ==
 

@@ -4,12 +4,15 @@ Plugin Name: Instant Comment Validation
 Plugin URI: http://wordpress.org/plugins/instant-comment-validation/
 Description: Add a instant validator for WordPress comment form, instead of sending users to default error page.
 Author: Mrinal Kanti Roy
-Version: 1.0
+Version: 1.0.1
 Author URI: http://profiles.wordpress.org/mkrdip/
 License: GPLv2 or later
 */
 
-	function instant_comment_validation_init() {
+// don't call the file directly
+if ( !defined( 'ABSPATH' ) ) exit;
+	
+function instant_comment_validation_init() {
 		
 	//load files only in single posts & if comments are open
 	if(is_singular() && comments_open() ) { 	
