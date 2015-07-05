@@ -4,7 +4,7 @@
  * Copyright (c) 2014 Mrinal Kanti Roy; License: GPLv2 or later
 ---------------------------------------------------------*/
 jQuery.validator.addMethod("better_email", function(value, element) {
-  // a better (but not 100% perfect) email validation. RegEx via http://stackoverflow.com/a/2507043
+  // a better (but not 100% perfect) email validation
   return this.optional( element ) || /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/.test( value );
 }, 'Please enter a valid email address.');
 
@@ -17,7 +17,7 @@ jQuery(document).ready(function($) {
 		  },		 
 		  email: {
 			required: true,
-			better_email: true
+			email: true
 		  },
 		  comment: {
 			required: true,
