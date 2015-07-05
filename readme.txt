@@ -1,10 +1,10 @@
 === Instant Comment Validation === 
 Contributors: mkrdip 
-Donate Link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=mkrdip%40yahoo%2ecom&lc=US&item_name=Instant%20Comment%20Validation%20Donation&item_number=01&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted 
-Tags: comment validation, wordpress comment validation plugin 
+Donate Link: http://mkrdip.me/donate 
+Tags: comment validation, wordpress comment validation plugin, comment validation plugin
 Requires at least: 2.8  
-Tested up to: 3.9.1 
-Stable tag: 1.0.1
+Tested up to: 4.2.2 
+Stable tag: 1.1.0
 License: GPLv2 or later 
 License URI: http://www.gnu.org/licenses/gpl-2.0.html 
 
