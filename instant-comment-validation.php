@@ -18,9 +18,9 @@ function instant_comment_validation_init() {
 	if(is_singular() && comments_open() ) { 	
 		
 	//loading plugin assest (CSS & JS files)
-	wp_enqueue_style( 'commentvalidation', WP_PLUGIN_URL . '/instant-comment-validation/assets/css/instant-comment-validation.css');
-	wp_enqueue_script('jqueryvalidate', WP_PLUGIN_URL . '/instant-comment-validation/assets/js/jquery.validate.min.js', array('jquery'));
-	wp_enqueue_script('commentvalidation', WP_PLUGIN_URL . '/instant-comment-validation/assets/js/instant-comment-validation.js', array('jquery','jqueryvalidate'));
+	wp_enqueue_style( 'commentvalidation', plugins_url('/instant-comment-validation/assets/css/instant-comment-validation.css'));
+	wp_enqueue_script('jqueryvalidate', plugins_url('/instant-comment-validation/assets/js/jquery.validate.min.js'), array('jquery'));
+	wp_enqueue_script('commentvalidation', plugins_url('/instant-comment-validation/assets/js/instant-comment-validation.js'), array('jquery','jqueryvalidate'));
 	}
 }
 add_action('wp_footer', 'instant_comment_validation_init');
